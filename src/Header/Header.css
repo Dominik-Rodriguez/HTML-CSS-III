@@ -1,0 +1,128 @@
+.header{
+    background-image: url(./gymphoto.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center center;
+    width: 100%;
+    height: 900px;
+}
+
+.phone-header{
+    background-color: rgb(70, 70, 70);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title{
+    color: #fed136;
+    margin-left: 50px;
+    /* font-family: ; */
+}
+
+.title a{
+    text-decoration: none;
+    color: #fed136;
+}
+
+.navbar-icon{
+    border: 2px solid #fed136;
+    color: white;
+    background-color: #fed136;
+    padding: 5px 8px;
+    border-radius: 8px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+.navbar-menu{
+    margin-right: 50px;
+    /* color: white; */
+    font-size: 20px;
+}
+
+.navbar-menu a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.menu{
+    height: 22.5vh;
+    width: 100%;
+    background: rgb(70, 70, 70);
+    position: fixed;
+    top: -50vh;
+    /* right:-200px; */
+    /* left: -200px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 100px;
+}
+
+
+.menu a{
+    margin-top: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+a:hover{
+    color: #fed136;
+}
+
+.slide{
+    top: 100px;
+}
+
+.contact{
+    border: 2px solid #fed136;
+    color: white;
+    background-color: #fed136;
+    padding: 5px 8px;
+    border-radius: 8px;
+    /* margin-right: 50px; */
+}
+
+.top-text{
+    font-family: sans-serif;
+    color: white;
+    margin-top: 250px;
+}
+
+.top-text2{
+    font-family: sans-serif;
+    color: white;
+    font-size: 50px;
+    font-weight: 100px;
+}
+
+.join-us{
+    border: 2px solid #fed136;
+    color: white;
+    background-color: #fed136;
+    padding: 20px 40px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+@media(max-width: 760px){
+    .navbar-menu{
+        display: none;
+    }
+    .navbar-icon{
+        display: flex;
+    }
+}
+
+@media(min-width: 760px){
+    .navbar-icon{
+        display: none;
+    }
+}
+
